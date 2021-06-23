@@ -1,0 +1,60 @@
+#display {
+  width: 30%; /* Full width */
+  text-align: center;
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 10px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  margin-left: auto;
+  margin-Right: auto;
+  background-color: #f2f2f2;
+}
+.title{
+  width:300px;
+  height:50px;
+  font-size: 1.5em;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 10px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and*/
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e6e6e6;
+}
+.answer, .question{
+  background-color:white;
+   width: 50%;
+   height: 20px;
+  margin: auto;
+  margin-top:5px;
+ border: 2px solid #ccc;  
+}
+.submit{
+ background: transparent;
+ color:#0066A2 ;
+ border-style: outset;
+ border-color: #0066A2;
+  border-radius: 15px;
+ margin-top:5px;
+ height: 35px;
+ width: 70px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+}
+.submit:hover{
+  color: #ffffff;
+  background: gray;
+  background-image: linear-gradient(180deg, #f2f2f2,  #e6e6e6);
+}
+
+.images{
+
+width: 300px;  
+height: auto;  
+text-align: center;  
+padding: 15px;  
+margin-top: 10px;
+border: 3px solid #999999;
+background: linear-gradient(to bottom, #b3b3b3 0%, #f2f2f2 100%);
+}
